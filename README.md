@@ -3,13 +3,15 @@
 A Python application that creates a virtual camera with real-time effects including:
 - Background blur (keeps your body in focus while blurring the background)
 - Face censoring toggle (pixelates and blurs your face)
-- Hand tracking visualization (currently just visual, no interaction features yet)
+- Hand tracking visualization with real-time measurements
+- Hand skeleton visualization with distance measurements in centimeters
 
 ## Features
 
 - **Background Blur**: Automatically detects your body and blurs everything else
 - **Face Censoring**: Toggle face pixelation/blur with the 'N' key
-- **Hand Tracking**: Shows hand skeleton visualization (currently just for display, may be used for gesture controls in future updates)
+- **Hand Tracking**: Shows hand skeleton visualization with real-time measurements
+- **Distance Measurements**: Toggle display of segment lengths in centimeters for each part of the hand
 - **Virtual Camera**: Works as a virtual camera device for use in Discord, Zoom, Teams, etc.
 
 ## Prerequisites
@@ -51,6 +53,7 @@ python main.py
 
 2. Controls:
    - Press 'N' to toggle face censoring on/off
+   - Press 'M' to toggle hand measurements on/off
    - Press 'Q' to quit the program
 
 3. To use in other applications:
