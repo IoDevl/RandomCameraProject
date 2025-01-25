@@ -20,7 +20,8 @@ Before running this application, you need to install a virtual camera driver:
 1. Install [OBS Studio](https://obsproject.com/) which includes the virtual camera driver
 2. Run OBS once to install the virtual camera
 
-### Linux```bash
+### Linux
+```bash
 sudo apt-get install v4l2loopback-dkms
 ```
 
